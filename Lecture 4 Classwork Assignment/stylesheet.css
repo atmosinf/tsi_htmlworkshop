@@ -1,0 +1,38 @@
+body{
+  background-color: #42576e;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 0 0 0;
+
+}
+
+h1{
+  /* text-align: center; */
+  color: #F3F3F3;
+  font-family:
+}
+
+h2{
+  /* text-align: center; */
+  color: #F3F3F3;
+}
+
+h3{
+  /* text-align: center; */
+  color: #F3F3F3;
+}
+
+p{
+  /* text-align: center; */
+  color: #F3F3F3;
+}
+
+li{
+  /* text-align: center; */
+  color: #F3F3F3;
+}
+
+div{
+  padding: 2% 5% 2% 5%;
+  background-color: #393A3B;
+  margin: 0% 20% 0% 20%;
+}
