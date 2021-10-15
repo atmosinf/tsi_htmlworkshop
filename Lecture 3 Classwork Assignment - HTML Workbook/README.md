@@ -9,3 +9,4 @@
 ### Screenshot below shows the form with a post method
 
 ![1](screenshots/1.PNG)<br><br>
+![2](screenshots/2.PNG)<br><br>
