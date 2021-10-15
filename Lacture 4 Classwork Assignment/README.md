@@ -1,9 +1,11 @@
-## Screenshots from the lectures<br>
+# Screenshots<br>
 
+## css-workshop.html
 ![1](screenshots/1.PNG)<br><br>
 ![2](screenshots/2.PNG)<br><br>
 ![3](screenshots/3.PNG)<br><br>
 ![4](screenshots/4.PNG)<br><br>
+<!--
 ![5](screenshots/5.PNG)<br><br>
 ![6](screenshots/6.PNG)<br><br>
 ![7](screenshots/7.PNG)<br><br>
@@ -30,3 +32,4 @@
 ![28](screenshots/28.PNG)<br><br>
 ![29](screenshots/29.PNG)<br><br>
 ![30](screenshots/30.PNG)<br><br>
+-->
