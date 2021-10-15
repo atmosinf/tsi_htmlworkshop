@@ -1,10 +1,10 @@
 # Screenshots<br>
 
 ## css-workshop.html
-![1](screenshots/1.PNG)<br><br>
-![2](screenshots/2.PNG)<br><br>
-![3](screenshots/3.PNG)<br><br>
-![4](screenshots/4.PNG)<br><br>
+![1](screenshots/1.PNG)<br>
+![2](screenshots/2.PNG)<br>
+![3](screenshots/3.PNG)<br>
+![4](screenshots/4.PNG)<br>
 <!--
 ![5](screenshots/5.PNG)<br><br>
 ![6](screenshots/6.PNG)<br><br>
