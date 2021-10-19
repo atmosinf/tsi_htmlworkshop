@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1{
+
+}
+
+input{
+  margin: 3px 0px 3px 0px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.btn{
+  padding: 1em;
+  border-radius: 20%;
+  background-color: #E7E7E7;
+  border: 2px solid black;
+  font-size: 18px;
+}
