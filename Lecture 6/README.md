@@ -1,5 +1,5 @@
 ## Screenshots from the lectures<br>
 
-****<br><br>
+### jQuery effects and animations
 
-![1](screenshots/eventhandler.gif)<br><br>
+![1](screenshots/gif1.gif)<br><br>
