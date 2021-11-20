@@ -130,13 +130,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIR = [STATIC_DIR,]
+STATICFILES_DIRS = [STATIC_DIR,]
 
 #MEDIA
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
 
-LOGIN_URL = '/loginapp/user_login'
+LOGIN_URL = '/loginapp/login'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

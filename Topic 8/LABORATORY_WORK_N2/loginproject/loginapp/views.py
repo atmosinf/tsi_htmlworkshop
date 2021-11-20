@@ -41,17 +41,21 @@ def user_login(request):
         if user:
             if user.is_active:
                 login(request, user)
-                return HttpResponseRedirect(reverse('index'))
+                return HttpResponseRedirect(reverse('loginapp:index'))
             else:
                 return HttpResponse("ACCOUNT NOT ACTIVE")
         else:
             print("Someone tried to login and failed")
             print(f"Username: {username} and password {password}")
-            return HttpResponse("invalid login details supplied")
+            return render(request, 'loginapp/login.html', {'login_invalid':"invalid login. please try again"})
     else:
         return render(request, 'loginapp/login.html', {})
 
-    @login_required
-    def user_logout(request):
-        logout(request)
-        return HttpResponseRedirect(reverse('index'))
+@login_required
+def user_logout(request):
+    logout(request)
+    return HttpResponseRedirect(reverse('loginapp:index'))
+
+@login_required
+def special(request):
+    return HttpResponse("You are logged in!")

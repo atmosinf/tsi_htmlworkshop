@@ -1,12 +1,69 @@
     {% extends "loginapp/base.html" %}
+    {% load static %}
     {% block bodyblock %}
     <div class="jumbotron">
-        <h1 class="display-4">Login App Example</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+        <h1 class="display-4">Login application in Django</h1>
+        <p class="lead">This application can be copied over to other projects to implement user authentication. Copy the login app to other projects and add the @login_required decorator to the respective view to enable login.</p>
+        
+        
+      </div>
+      <div class="container">
+        {% if user.is_authenticated %}
+        <!-- Gallery -->
+        <br>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- Gallery -->
+        <p>you are in dude!</p>
+        {% else %}
+        <p>Please <a href="{% url 'loginapp:login' %}">log in</a> to view the images</p><br>
+        <img
+          src="{% static 'images/loginappimages_blur.png' %}"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="image not found"
+        />
+        <p>you are not authenticated</p>
+        {% endif %}
       </div>
     {% endblock %}
